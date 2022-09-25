@@ -52,9 +52,9 @@ body {
     font-size: 14px;
 }
 
-a {
+/* a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .container {
     width: 1200px;
@@ -513,6 +513,7 @@ nav a.active {
     fill: var(--main-icon-color);
 
     justify-content: center;
+    align-items: center;
 }
 
 .social-item + .social-item {
@@ -544,6 +545,7 @@ nav a.active {
     border: 1px solid rgba(175, 177, 184, 1);
 
     justify-content: center;
+    align-items: center;
 }
 
 .client-link:hover,
